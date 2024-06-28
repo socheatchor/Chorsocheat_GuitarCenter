@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">WATCH</string>
+    <string name="textview">Have A Lot Of Model For Sell</string>
+    <string name="sub_title">We offer a wide selection of timepieces to suit every style and budget</string>
+    <string name="button_text">Buy Now</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wallet">10.50 ETH</string>
+    <string name="categories">Categories</string>
+    <string name="view_all">View all</string>
+    <string name="guitar_center">Guitar Center</string>
+    <string name="account_login">Account Login</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="login">login</string>
+    <string name="log_in">Log in</string>
+    <string name="loadding">Loadding...</string>
+    <string name="guitar_center39">Guitar Center</string>
+    <string name="description"><![CDATA[Guitar Center is an American musical instrument retailer chain based in Westlake Village, California. It is the largest company of its kind in the United States, with 304 locations. The company oversees subsidiaries which include Musician\'s Friend, AVDG, Music & Arts, Woodwind & Brasswind, and Giardinelli.]]></string>
+</resources>

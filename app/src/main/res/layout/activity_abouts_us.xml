@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/accent"
+    tools:context=".AboutUs">
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="409dp"
+            android:layout_height="889dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="1dp"
+            android:background="@drawable/card"
+            tools:layout_editor_absoluteY="1dp"
+            tools:ignore="MissingConstraints">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                >
+                <Button
+                    android:id="@+id/buttonAbout"
+                    android:layout_marginHorizontal="30dp"
+                    android:layout_marginVertical="30dp"
+                    android:layout_width="40dp"
+                    android:background="@drawable/baseline_arrow_white_ios_24"
+                    android:layout_height="40dp">
+                </Button>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cheat1" />
+
+            </RelativeLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/variant" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="30dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="About Me"
+                    android:textSize="30sp"
+                    android:textColor="@color/accent"
+                    />
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@color/primary" />
+            </RelativeLayout>
+            <!--   Name    -->
+            <LinearLayout
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Full Name :"
+                    android:textColor="@color/accent"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:text="Chor Socheat"
+                    android:textColor="@color/accent"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Id :"
+                    android:textColor="@color/accent"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="85dp"
+                    android:text="65-210066"
+                    android:textColor="@color/accent"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="College :"
+                    android:textColor="@color/accent"
+                    android:textSize="20dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="35dp"
+                    android:text="COST"
+                    android:textColor="@color/accent"
+                    android:textSize="20dp" />
+            </LinearLayout>
+            <View
+                android:layout_marginVertical="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/variant" />
+            <!--        project title -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="About Project"
+                    android:textSize="30sp"
+                    android:textColor="@color/accent"
+                    />
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@color/primary" />
+            </RelativeLayout>
+            <!--   About project    -->
+            <TextView
+                android:layout_marginVertical="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome to My Watch Shop, where timepieces come to life. We are passionate about empowering watch enthusiasts through the transformative potential of fine timepieces."
+                android:textSize="18sp"
+                android:textColor="@color/accent"
+                />
+            <!--        Our Vision-->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginHorizontal="20dp"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:text="Our Vision"
+                    android:textSize="30sp"
+                    android:textColor="@color/accent"
+                    />
+                <View
+                    android:layout_width="55dp"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="50dp"
+                    android:background="@color/primary" />
+            </RelativeLayout>
+            <TextView
+                android:layout_marginVertical="20dp"
+                android:layout_marginHorizontal="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="At My Watch Shop, we envision a future where watch ownership is accessible, secure, and rewarding for everyone. Our mission is to create a vibrant marketplace that bridges the gap between traditional craftsmanship and modern technology, offering a dynamic platform for collectors to find their perfect timepiece."
+                android:textSize="18sp"
+                android:textColor="@color/accent"
+                />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
